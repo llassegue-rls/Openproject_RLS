@@ -3,7 +3,7 @@ services:
   openproject:
     build: .
     ports:
-      - "8080:8080"
+      - "8080:80"
     environment:
       OPENPROJECT_SECRET_KEY_BASE: "your_secret_key"
       OPENPROJECT_HTTPS: "false"
